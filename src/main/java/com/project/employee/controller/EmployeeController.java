@@ -5,6 +5,8 @@ import com.project.employee.repository.EmployeeRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.servlet.ModelAndView;
 
 import java.util.List;
@@ -16,6 +18,7 @@ public class EmployeeController {
     @Autowired
     private EmployeeRepository eRepo;
 
+    //Get all list of Data:
     @GetMapping("/")
     public ModelAndView showEmployees() {
         ModelAndView mav = new ModelAndView("list-employees");
@@ -23,4 +26,23 @@ public class EmployeeController {
        mav.addObject("employees", list);
        return mav;
     }
+
+    //Add new data:
+    @GetMapping("/addEmployeeForm")
+    public ModelAndView addEmployeeForm() {
+        ModelAndView mav = new ModelAndView("add-employee-form");
+        Employee newEmployee = new Employee();
+        mav.addObject("employee", newEmployee);
+        return  mav;
+    }
+
+
+    //User click button save function:
+    @PostMapping("/saveEmployee")
+    public String saveEmployee(@ModelAttribute Employee employee) {
+        eRepo.save(employee);
+        return "redirect:/";
+    }
+
+
 }
