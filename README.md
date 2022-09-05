@@ -1,4 +1,4 @@
-# `Simple WebApp`
+# Simple WebApp
 
 > Learn to develop web application based on Spring Boot.
 
@@ -9,15 +9,12 @@
 - Thymeleaf
 - MySQL
 
-```flow
-st=>start: Login
-op=>operation: Login operation
-cond=>condition: Successful Yes or No?
-e=>end: To admin
+### `Connect to MySQL`
 
-st->op->cond
-cond(yes)->e
-cond(no)->op
-```
+Connect with MySQL Database:
+spring.datasource.url=jdbc:mysql://localhost:3306/testdb
+spring.datasource.username=root
+spring.datasource.password=
+spring.jpa.hibernate.ddl-auto=update
 
 
