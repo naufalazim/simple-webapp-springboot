@@ -8,6 +8,7 @@
 - Java 17
 - Thymeleaf
 - MySQL
+- Bootstrap
 
 ### `Connect to MySQL`
 ```
