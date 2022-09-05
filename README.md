@@ -1,3 +1,5 @@
-# `Create Simple Web Application`
+# `Simple WebApp`
 
-<li>Develop based on Springboot</li>
+Learn to develop web application based on Spring Boot.
+
+***
