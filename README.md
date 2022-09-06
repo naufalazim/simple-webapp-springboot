@@ -1,6 +1,6 @@
 # Simple WebApp
 
-> Learn to develop web application based on Spring Boot.
+> Learn to develop web application based on Spring Boot. Implement C.R.U.D
 
 
 ### `Tech Stacks`
@@ -9,6 +9,7 @@
 - Thymeleaf
 - MySQL
 - Bootstrap
+- JQuery
 
 ### `Connect to MySQL`
 ```
