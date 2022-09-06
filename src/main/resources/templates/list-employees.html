@@ -32,7 +32,7 @@
                     <td th:text="${employee.department}"></td>
                     <td>
                         <button><a th:href="@{/showUpdateForm(employeeId=${employee.id})}">Update</a></button>
-                        <button><a>Delete</a></button>
+                        <button><a th:href="@{/deleteEmployee(employeeId=${employee.id})}">Delete</a></button>
                     </td>
                 </tr>
                 </tbody>

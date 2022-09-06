@@ -55,5 +55,11 @@ public class EmployeeController {
         return mav;
     }
 
+    @GetMapping("/deleteEmployee")
+    public String deleteEmployee(@RequestParam Long employeeId) {
+        eRepo.deleteById(employeeId);
+        return "redirect:/";
+    }
+
 
 }
