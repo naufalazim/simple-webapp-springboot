@@ -4,7 +4,7 @@
 
 ### `Example`
 
-![alt text](https://github.com/naufalazim/ekripto/blob/main/Image/crypto-price.gif](https://github.com/naufalazim/simple-webapp-springboot/blob/master/interface.png)
+![alt text]("https://github.com/naufalazim/simple-webapp-springboot/blob/master/interface.png")
 
 
 ### `Tech Stacks`
