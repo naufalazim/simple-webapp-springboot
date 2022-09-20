@@ -2,6 +2,10 @@
 
 > Learn to develop web application based on Spring Boot. Implement C.R.U.D
 
+### `Example`
+
+![](https://github.com/naufalazim/simple-webapp-springboot/blob/master/interface.png | width=100)
+
 
 ### `Tech Stacks`
 - Springboot 
