@@ -4,7 +4,7 @@
 
 ### `Example`
 
-![image]([https://your-image-url.type](https://github.com/naufalazim/simple-webapp-springboot/blob/master/interface.png))
+<img src="[https://github.com/naufalazim/trackerISS/blob/main/img/chart.png](https://github.com/naufalazim/simple-webapp-springboot/blob/master/interface.png)" width=50% height=50%>
 
 
 ### `Tech Stacks`
