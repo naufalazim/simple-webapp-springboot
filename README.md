@@ -4,7 +4,7 @@
 
 ### `Example`
 
-<img src="[https://github.com/naufalazim/trackerISS/blob/main/img/chart.png](https://github.com/naufalazim/simple-webapp-springboot/blob/master/interface.png)" width=50% height=50%>
+<img src="[https://github.com/naufalazim/trackerISS/blob/main/img/chart.png](https://github.com/naufalazim/simple-webapp-springboot/blob/master/interface.png)">
 
 
 ### `Tech Stacks`
