@@ -55,6 +55,7 @@ public class EmployeeController {
         return mav;
     }
 
+    //delete data:
     @GetMapping("/deleteEmployee")
     public String deleteEmployee(@RequestParam Long employeeId) {
         eRepo.deleteById(employeeId);
